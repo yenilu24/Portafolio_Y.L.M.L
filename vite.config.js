@@ -1,9 +1,9 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: "/Portafolio-/",
+  base: '/Portafolio_Y.L.M.L/',
   build: {
-    outDir: "docs",
-    cssMinify: true,
+    outDir: 'docs',
+    emptyOutDir: true,
   },
 });
